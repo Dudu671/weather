@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Weather",
+    "slug": "weather",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/appIcon.png",
+    "splash": {
+      "image": "./assets/appSplash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.matos.weather",
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "androidNavigationBar": {
+      "backgroundColor": "#2a94f7"
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#ffffff",
+      "translucent": false,
+      "barStyle": "dark-content"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
